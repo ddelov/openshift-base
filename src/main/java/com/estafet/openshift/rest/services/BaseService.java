@@ -11,7 +11,7 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
  */
 
 @Path("/")
-public class DeviceManagerServices {
+public class BaseService {
 
 		@GET
 		@Path("/")
