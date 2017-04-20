@@ -1,6 +1,4 @@
-package org.blogger.rest.resources;
-
-import org.apache.log4j.Logger;
+package com.estafet.openshift.rest.services;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -14,7 +12,6 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 
 @Path("/")
 public class DeviceManagerServices {
-		private Logger log = Logger.getLogger(DeviceManagerServices.class);
 
 		@GET
 		@Path("/")
