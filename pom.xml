@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.estafet.openshift</groupId>
-	<artifactId>device_manager</artifactId>
+	<artifactId>base</artifactId>
 	<packaging>war</packaging>
 	<version>1.0</version>
 	<name>base</name>
