@@ -15,7 +15,6 @@ public class RestConfig extends Application{
 		@Path("/device")
 		@Produces(APPLICATION_JSON)
 		public String ping(){
-
 				return "Hello World!";
 		}
 }
